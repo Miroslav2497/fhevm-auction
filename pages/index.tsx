@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { FhevmInstance, createInstance } from '@zama-fhe/relayer-sdk';
 import { ethers } from 'ethers';
 import { FhevmInstance, createInstance } from 'fhevmjs';
 
