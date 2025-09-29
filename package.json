@@ -1,0 +1,43 @@
+{
+  "name": "hello-fhevm-auction",
+  "version": "1.0.0",
+  "description": "A beginner-friendly FHEVM tutorial - Private Auction dApp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network zama-testnet",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "fhevmjs": "^0.1.0",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": [
+    "fhevm",
+    "privacy",
+    "blockchain",
+    "tutorial",
+    "auction",
+    "encryption",
+    "bidding"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
